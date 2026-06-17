@@ -1,35 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Twitter Clone
 
-## Getting Started
+A full-stack social media web application inspired by Twitter, built with Next.js App Router.  
+This project demonstrates modern full-stack development including authentication, database integration, dynamic routing, and server-side rendering.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Coming soon / Add your deployed link here:
+https://your-deployment-link.com
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Overview
 
-## Learn More
+This application allows users to:
 
-To learn more about Next.js, take a look at the following resources:
+- Create an account and authenticate securely
+- Post and view tweets in a real-time feed
+- Like and comment on posts
+- View user profiles and individual tweet pages
+- Navigate through a fully responsive UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The goal of this project is to simulate a simplified social platform while practicing scalable full-stack architecture.
 
+---
 
-## Deploy on Vercel
+## 🧠 Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- User authentication (Register / Login / Logout)
+- JWT-based session management
+- Create, read, and display tweets
+- Like & comment system
+- Dynamic routing for tweet detail pages
+- User profile page with activity overview
+- Responsive UI (mobile-first design)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- Next.js (App Router)
+- React
+- Tailwind CSS
+
+**Backend**
+- Next.js API Routes
+- Node.js
+
+**Database**
+- MongoDB
+- Mongoose ODM
+
+**Authentication**
+- JWT (JSON Web Tokens)
+- bcrypt.js
+
+---
+
+## 📁 Project Structure
