@@ -1,62 +1,52 @@
 # Twitter Clone
 
-A full-stack social media web application inspired by Twitter, built with Next.js App Router.  
-This project demonstrates modern full-stack development including authentication, database integration, dynamic routing, and server-side rendering.
+A full-stack social media application inspired by Twitter, built with Next.js App Router.  
+This project demonstrates modern web development concepts including authentication, server-side rendering, and dynamic routing.
 
 ---
 
 ## 🚀 Live Demo
 
-Coming soon / Add your deployed link here:
-https://your-deployment-link.com
+👉 https://your-vercel-link.vercel.app
 
 ---
 
 ## 📌 Overview
 
-This application allows users to:
+This project simulates a simplified Twitter-like platform where users can:
 
-- Create an account and authenticate securely
-- Post and view tweets in a real-time feed
-- Like and comment on posts
-- View user profiles and individual tweet pages
-- Navigate through a fully responsive UI
-
-The goal of this project is to simulate a simplified social platform while practicing scalable full-stack architecture.
+- Create accounts
+- Post tweets
+- Like and comment
+- View user profiles
+- Navigate dynamic tweet pages
 
 ---
 
 ## 🧠 Key Features
 
-- User authentication (Register / Login / Logout)
-- JWT-based session management
-- Create, read, and display tweets
-- Like & comment system
-- Dynamic routing for tweet detail pages
-- User profile page with activity overview
-- Responsive UI (mobile-first design)
+- Authentication (Register / Login / Logout)
+- JWT-based security
+- Create & display tweets
+- Like and comment system
+- Dynamic routing with Next.js App Router
+- Responsive UI
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend**
-- Next.js (App Router)
-- React
-- Tailwind CSS
-
-**Backend**
-- Next.js API Routes
-- Node.js
-
-**Database**
-- MongoDB
-- Mongoose ODM
-
-**Authentication**
-- JWT (JSON Web Tokens)
-- bcrypt.js
+- Next.js → https://nextjs.org/
+- React → https://react.dev/
+- Tailwind CSS → https://tailwindcss.com/
+- MongoDB → https://www.mongodb.com/
+- Mongoose → https://mongoosejs.com/
+- JWT Authentication
 
 ---
 
-## 📁 Project Structure
+## ⚙️ Getting Started
+
+```bash
+npm install
+npm run dev
