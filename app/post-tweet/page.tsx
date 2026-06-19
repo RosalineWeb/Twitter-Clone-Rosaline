@@ -45,14 +45,14 @@ export default function PostTweetPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-100 to-yellow-100 p-6 md:p-10">
-      {/* <nav className="mx-auto m-10 flex max-w-6xl flex-col items-center justify-between gap-6 rounded-3xl bg-white px-8 py-6 shadow-sm md:flex-row md:px-12">
-        <div className="flex gap-8 text-xl font-medium text-orange-500 md:text-2xl">
-          <Link className="hover:text-orange-600" href="/home">
+<main className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-100 to-yellow-100 p-6 md:p-10">
+        {/* <nav className="mx-auto m-10 flex max-w-6xl flex-col items-center justify-between gap-6 rounded-3xl bg-white px-8 py-6 shadow-sm md:flex-row md:px-12">
+        <div className="flex gap-8 text-xl font-medium text-blue-500 md:text-2xl">
+          <Link className="hover:text-blue-600" href="/home">
             Home
           </Link>
 
-          <Link className="hover:text-orange-600" href="/post-tweet">
+          <Link className="hover:text-blue-600" href="/post-tweet">
             Post a Tweet
           </Link>
         </div>
@@ -66,8 +66,8 @@ export default function PostTweetPage() {
         >
           ← Back
         </Link>
-        <h1 className="mt-8 text-4xl font-bold text-orange-500 md:text-5xl">
-          Create Tweet
+          <h1 className="mt-8 text-4xl font-bold text-sky-500 md:text-5xl">
+          Create Your Post
         </h1>
 
         <form
@@ -76,26 +76,26 @@ export default function PostTweetPage() {
         >
           <input
             type="text"
-            placeholder="Tweet title"
+            placeholder="Your Post"
             value={title}
             onChange={(e) =>
               setTitle(e.target.value)
             }
-            className="w-full rounded-2xl border border-orange-200 bg-orange-50 p-5 text-xl text-gray-900 placeholder:text-gray-400 outline-none focus:border-orange-500 md:text-2xl" />
-
+            className="w-full rounded-2xl border border-sky-200 bg-sky-50 p-5 text-xl text-gray-900 placeholder:text-gray-400 outline-none focus:border-sky-500 md:text-2xl" />
+            
           <textarea
-            placeholder="What is happening?"
+            placeholder="Share anything you want! Your thoughts, a joke, an update, or just say hi!"
             rows={8}
             value={body}
             onChange={(e) =>
               setBody(e.target.value)
             }
-            className="w-full rounded-2xl border border-orange-200 bg-orange-50 p-5 text-xl text-gray-900 placeholder:text-gray-400 outline-none focus:border-orange-500 md:text-2xl" />
+            className="w-full rounded-2xl border border-sky-200 bg-sky-50 p-5 text-xl text-gray-900 placeholder:text-gray-400 outline-none focus:border-sky-500 md:text-2xl" />
 
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded-2xl bg-orange-500 py-5 text-2xl font-bold text-white transition hover:bg-orange-600 disabled:opacity-50 md:text-3xl"
+            className="w-full rounded-2xl bg-sky-500 py-5 text-2xl font-bold text-white transition hover:bg-sky-600 disabled:opacity-50 md:text-3xl"
           >
             {loading
               ? "Posting..."

@@ -15,7 +15,7 @@ export default function HomeNavbar() {
         </span>
 
         <h1 className="text-3xl font-bold text-blue-600 transition duration-300 group-hover:text-blue-500 md:text-4xl">
-          Let&apos;s Tweet
+          Let&apos;s post something! 🚀
         </h1>
       </Link>
 
@@ -24,14 +24,14 @@ export default function HomeNavbar() {
           href="/home"
           className="rounded-2xl px-5 py-3 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:text-blue-600 hover:shadow-md"
         >
-          Home
+          Main
         </Link>
 
         <Link
           href="/post-tweet"
           className="rounded-2xl px-5 py-3 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:text-blue-600 hover:shadow-md"
         >
-          Post Tweet
+          Post 
         </Link>
         <Link
           href="/profile"

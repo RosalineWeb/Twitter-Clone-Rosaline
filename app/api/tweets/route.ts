@@ -13,14 +13,18 @@ export async function GET() {
   try {
     await connectDB()
 
+    console.log("🔥 DB CONNECTED")
+
     const tweets = await Tweet.find()
-      .populate("user", "name username email")
-      .sort({ createdAt: -1 })
+
+    console.log("🔥 TWEETS:", tweets)
 
     return NextResponse.json(tweets)
   } catch (error) {
+    console.log("🔥 FULL ERROR:", error)
+
     return NextResponse.json(
-      { message: "Failed to fetch tweets" },
+      { error: String(error) },
       { status: 500 }
     )
   }
@@ -54,6 +58,8 @@ export async function POST(req: Request) {
 
     return NextResponse.json(tweet, { status: 201 })
   } catch (error) {
+    console.error("POST TWEET ERROR:", error)
+
     return NextResponse.json(
       { message: "Failed to create tweet" },
       { status: 500 }

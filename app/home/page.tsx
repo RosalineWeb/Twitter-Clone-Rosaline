@@ -23,13 +23,13 @@ export default async function HomePage() {
       <div className="mx-auto max-w-5xl">
         <TweetComposer />
 
-        <div className="mt-10 space-y-6">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
           {tweets.map((tweet: any) => (
             <TweetCard key={tweet._id} post={tweet} />
           ))}
           {tweets.length === 0 && (
             <div className="rounded-3xl bg-white p-10 text-center text-xl text-gray-500 shadow-sm">
-              No tweets yet. Create your first tweet 🚀
+              No posts yet. Create your first post 🚀
             </div>
           )}
         </div>

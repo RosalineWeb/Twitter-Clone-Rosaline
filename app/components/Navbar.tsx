@@ -12,7 +12,7 @@ export default function Navbar() {
         </span>
 
         <h1 className="text-3xl font-bold text-blue-600 transition duration-300 group-hover:text-blue-500 md:text-4xl">
-          Let&apos;s Tweet
+          Let&apos;s post something! 🚀
         </h1>
       </Link>
 
@@ -21,7 +21,7 @@ export default function Navbar() {
           href="/login"
           className="rounded-2xl border border-blue-500 px-6 py-3 text-lg font-medium text-blue-500 transition duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-md md:text-xl"
         >
-          Login
+          Sign in
         </Link>
 
         <Link
